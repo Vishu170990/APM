@@ -3,8 +3,9 @@ import { IProduct } from "./product";
 
 @Component({
     selector:'pm-products',
-    templateUrl:'app/product/product-list.component.html',
-    styleUrls: ['app/product/product-list.component.css']
+    moduleId:module.id,
+    templateUrl:'product-list.component.html',
+    styleUrls: ['product-list.component.css']
 })
 export class ProductListComponent implements OnInit{
     showImage: boolean = false;
